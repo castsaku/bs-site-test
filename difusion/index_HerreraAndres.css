@@ -1,0 +1,19 @@
+*{
+	text-align: center;
+	font-family: helvetica;
+	font-size: 18px;
+	color: white;
+}
+
+body{
+	background-image: url(assets/bgvg.jpg);
+}
+
+input{
+	color: black;
+}
+
+.center {
+  padding: 70px 0;
+  text-align: center;
+}
