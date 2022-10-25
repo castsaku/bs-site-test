@@ -1,0 +1,28 @@
+p{
+    font-size: 20px;
+}
+
+h1{
+    color:white;
+}
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(assets/pcbg.webp);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.firstrow{
+    color: white;
+    padding-top: 2%;
+}
+
+.left_image{
+    padding-top: 5%;
+    width: 300px;
+}
+
+.righttext{
+    width: 80rem;
+}
