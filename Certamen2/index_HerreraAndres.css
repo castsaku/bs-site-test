@@ -1,0 +1,13 @@
+footer{
+    background-color: #343a40;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 2rem;
+}
+
+.middletitle{
+    padding-top: 0.5rem;
+}
