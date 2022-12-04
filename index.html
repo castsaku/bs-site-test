@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<link href="indexcss.css" rel="stylesheet">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+
+<title>CV | Andrés Herrera</title>
 </head>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 	<div class="container-fluid">
-		<a class="navbar-brand" href="#">Interfaz de Usuario</a>
+		<a class="navbar-brand" href="index.html">Interfaz de Usuario</a>
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
 		</button>
@@ -28,9 +29,6 @@
 				<li class="nav-item">
 					<a class="nav-link" href="https://castsaku.github.io/gamesaddictionipvg/usuario.html">Trabajo Final</a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="CV/cv.html">CV</a>
-				</li>
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">C#</a>
 						<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -43,6 +41,84 @@
 </nav>
 
 <body>
-	<script src="bootstrap/js/bootstrap.min.js"></script>
+    <div class="container firstrow">
+        <div class="row row-cols-md-2">
+            <div class="col-md-6 align-self-center">
+                <img class="img-fluid rounded mx-auto d-block left_image" src="assets/pofpic.jpg" alt="...">
+            </div>
+            <div class="col-md-6 align-self-center text-center">
+                <h1 class="display-4">Andrés Herrera Sánchez</h1><br>
+                <h2 class="h2">Director Audiovisual y Multimedia</h2>
+                <h2 class="h2">Estudiante TNS Analista Programador</h2><br>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="container">
+        <div class="row row-cols-md-3 g-5">
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="card" style="width: 28rem;">
+                    <img src="assets/videoedit.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Edición de Vídeo</h5>
+                        <p class="card-text">Para publicidad, vídeos corporativos y creadores de contenido.</p><br>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="card" style="width: 28rem;">
+                    <img src="assets/pcbg.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Asesoría en PC Building</h5>
+                        <p class="card-text">Para empresas que necesiten ese pequeño extra en los equipos que utilizan día a día.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="card" style="width: 28rem;">
+                    <img src="assets/esports.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Esport Management</h5>
+                        <p class="card-text">Para empresas que deseen incursionar en el rubro de los deportes electrónicos.</p><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container firstrow">
+        <div class="row row-cols-md-2">
+            <div class="col-md-6 text-center align-self-center">
+                <h1 class="display-4">¿Necesitas contactarme?</h1><br>
+                <h2 class="h3">Rellena el formulario y me pondré en contacto contigo (:</h2><br>
+            </div>
+            <div class="col-md-6 align-self-center">
+                <form>
+                    <div class="mb-3">
+                        <label for="ContactInputName" class="form-label">Nombre Completo</label>
+                        <input type="text" class="form-control" id="ContacName" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="ContactInputEmail" class="form-label">Dirección de Correo Electrónico</label>
+                        <input type="email" class="form-control" id="ContactMail" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="ContactInputEmail" class="form-label">Teléfono de Contacto (Opcional)</label>
+                        <input type="tel" class="form-control" id="ContactInputEmail">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                  </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-black text-center">
+        <span>Andrés Herrera © 2022</span>
+    </footer>
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
