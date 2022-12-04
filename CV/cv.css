@@ -16,6 +16,7 @@ body{
 .firstrow{
     color: white;
     padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 .left_image{
@@ -25,4 +26,10 @@ body{
 
 .righttext{
     width: 80rem;
+}
+
+footer{
+    height: auto;
+    padding: 0.5rem;
+    background-color: white;
 }
